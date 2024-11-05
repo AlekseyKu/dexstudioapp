@@ -11,6 +11,6 @@
     "outDir": "./dist",
     "rootDir": "./src"
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/scenes/AboutScene.ts", "src/scenes/ContactScene.ts", "src/scenes/HomeScene.ts", "src/components/FluidAnimationComponent.tsx", "src/components/textLogo.ts"],
   "exclude": ["node_modules"]
 }
