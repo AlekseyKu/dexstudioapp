@@ -3,6 +3,8 @@ body, html {
     padding: 0;
     overflow: hidden;
     font-family: Arial, sans-serif;
+    background-color: black;
+
 }
 
 #scroll-container {
