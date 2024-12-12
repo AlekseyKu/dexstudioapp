@@ -12,7 +12,7 @@ export function addTextLogo(container: HTMLElement): HTMLDivElement {
     textElement.style.pointerEvents = 'none';
     textElement.style.opacity = '0';
     textElement.style.transition = 'opacity 2s ease';
-    textElement.textContent = 'DexSudioApp'.toUpperCase();
+    textElement.textContent = 'DexStudioApp'.toUpperCase();
     container.appendChild(textElement);
 
     // Плавное появление текста
