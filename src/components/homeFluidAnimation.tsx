@@ -1,3 +1,4 @@
+// src/components/homeFluidAnimation.tsx
 import React, { useEffect, useRef } from 'react';
 import FluidAnimation, { IAnimationConfig } from '@usertive/react-fluid-animation';
 
@@ -16,11 +17,11 @@ const FluidAnimationComponent: React.FC = () => {
   const animationRef = useRef<FluidAnimation | null>(null);
 
   useEffect(() => {
-    // Проверим, доступен ли какой-либо API, если требуется добавление сплэшей
+    // При необходимости можно добавить логику сплэшей или реакций на смену цвета
   }, []);
 
   return (
-    <div style={{ width: '100%', height: '100%' }}>
+    <div style={{ position: 'absolute', top:0, left:0, width: '100%', height: '100%', zIndex:0 }}>
       <FluidAnimation ref={animationRef} config={config} />
     </div>
   );

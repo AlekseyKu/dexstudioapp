@@ -1,5 +1,4 @@
 // src/script.ts
-
 import * as THREE from 'three';
 import { HomeScene } from './scenes/HomeScene';
 import { AboutScene } from './scenes/AboutScene';
